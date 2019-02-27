@@ -34,7 +34,7 @@ Branching factor.
 **How is the time complexity of A\* classified?**  
 Exponential
 
-**What is the solution for a classical search algorithm (A\*, BFS, ect.)?**
+**What is the solution for a classical search algorithm (A\*, BFS, ect.)?**  
 Path
 
 **What is a solution for local search algorithms?**  
@@ -47,16 +47,16 @@ State
 Lowest heuristic cost.  
 > **Note:** Greedy search only cares about heuristic cost, nothing else.
 
-**What is the main problem when using Hill Climbing based algorithms?**
+**What is the main problem when using Hill Climbing based algorithms?**  
 Local minima/maxima.
 
-**In simulated annealing, how is the "next" node chosen?**
+**In simulated annealing, how is the "next" node chosen?**  
 Uniformly sampled.  
 > **Note:** Uniformly sampled because you're randomly selecting a node from a list of successors. You're not using heuristic cost when selecting a node, only when comparing against current node.
 
-**In genetic algorithms, how are the "parents" chosen when doing a crossover operation?**
+**In genetic algorithms, how are the "parents" chosen when doing a crossover operation?**  
 Randomly selected based on fitness values.
 
-**In genetic algorithms, how are states represented?**
+**In genetic algorithms, how are states represented?**  
 String of numeric values.
 
