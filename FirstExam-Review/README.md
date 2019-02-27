@@ -1,10 +1,10 @@
 ## First Exam Poll Everywhere Review
 
 **What is the process of looking for a sequence of actions that reaches the goal?**  
-Search
+&nbsp;&nbsp;&nbsp;&nbsp;- Search
 
 **Which of these does NOT influence the state space?**  
-Goal
+&nbsp;&nbsp;&nbsp;&nbsp;- Goal
 
 **What does it mean if a heuristic is admissible?**  
 It never over-estimates the true cost to the goal.
