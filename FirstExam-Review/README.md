@@ -1,88 +1,67 @@
 ## First Exam Poll Everywhere Review
 
-Q: What is the process of looking for a sequence of actions that reaches the goal?
+**What is the process of looking for a sequence of actions that reaches the goal?**  
+Search
 
-A: Search.
+**Which of these does NOT influence the state space?**  
+Goal
 
-Q: Which of these does NOT influence the state space?
+**What does it mean if a heuristic is admissible?**  
+It never over-estimates the true cost to the goal.
 
-A: Goal.
+**What is the output of a heuristic funtion for some node n?**  
+An estimate of the cost from n to the goal.
 
-Q: What does it mean if a heuristic is admissible?
+**What node will DFS expand?**  
+Node with the largest depth.
 
-A: It never over-estimates the true cost to the goal.
+**What node will UCS expand?**  
+Lowest path cost.
 
-Q: What is the output of a heuristic funtion for some node n?
+**What condition makes A\* and UCS expand nodes exactly the same?**  
+  h(n) = constant
 
-A: An estimate of the cost from n to the goal.
+**Note:** The professor likes this question and hinted at there possibly being a question(s) similar to it on the exam. Make sure to study conditions that make algorithms behave similarly.
 
-Q: What node will DFS expand?
+**What node will A\* expand?**  
+  Lowest f cost.
 
-A: Node with the largest depth.
+**What factors influence the time complexity of A\*?**  
+  Depth of the goal.
+  Heuristic error.
+  Branching factor.
 
-Q: What node will UCS expand?
+**Note:** "Path cost error" was the only incorrect option. Know the time complexity of A*.
 
-A: Lowest path cost.
+**How is the time complexity of A\* classified?**  
+  Exponential
 
-Q: What condition makes A* and UCS expand nodes exactly the same?
+**What is the solution for a classical search algorithm (A\*, BFS, ect.)?**
+  Path
 
-A: h(n) = constant.
+**What is a solution for local search algorithms?**  
+  State
 
-Note: Professor likes this question and hinted at there possibly being a question(s) similar to it on the exam. Make sure to study conditions that make algorithms behave similarly.
+**Note:** "Goal" is not a solution because:
+ 1) there can be many goals
+ 2) you may never reach any goal
 
-Q: What node will A* expand?
+**What node will greedy search expand?**  
+  Lowest heuristic cost.
 
-A: Lowest f cost.
+**Note:** Greedy search only cares about heuristic cost, nothing else.
 
-Q: What factors influence the time complexity of A*?
+**What is the main problem when using Hill Climbing based algorithms?**
+  Local minima/maxima.
 
-A: Depth of the goal.
+**In simulated annealing, how is the "next" node chosen?**
+  Uniformly sampled.
 
-A: Heuristic error.
+**Note:** Uniformly sampled because you're randomly selecting a node from a list of successors. You're not using heuristic cost when selecting a node, only when comparing against current node.
 
-A: Branching factor.
+**In genetic algorithms, how are the "parents" chosen when doing a crossover operation?**
+  Randomly selected based on fitness values.
 
-Note: "Path cost error" was the only incorrect option. Know the time complexity of A*.
-
-Q: How is the time complexity of A* classified?
-
-A: Exponential.
-
-Q: What is the solution for a classical search algorithm (A*, BFS, ect.)?
-
-A: Path.
-
-Q: What is a solution for local search algorithms?
-
-A: State.
-
-Note: "Goal" is not a solution because:
-
-      1) there can be many goals
-
-      2) you may never reach any goal
-
-Q: What node will greedy search expand?
-
-A: Lowest heuristic cost.
-
-Note: Greedy search only cares about heuristic cost, nothing else.
-
-Q: What is teh main problem when using Hill Climbing based algorithms?
-
-A: Local minima/maxima.
-
-Q: In simulated annealing, how is the "next" node chosen?
-
-A: Uniformly sampled.
-
-Note: Randomly selecting a node from a list of successors, not using heuristic cost when selecting a node, only use heuristic when comparing against current node.
-
-Q: In genetic algorithms, how are the "parents" chosen when doing a crossover operation?
-
-A: Randomly selected based on fitness values.
-
-Q: In genetic algorithms, how are states represented?
-
-A: String of numeric values.
+**In genetic algorithms, how are states represented?**
+  String of numeric values.
 
